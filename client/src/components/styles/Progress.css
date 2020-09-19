@@ -1,0 +1,28 @@
+#checkProgress{
+    padding-top: 50px;
+}
+#checkProgress > h1{
+    text-align: center;
+    color: var(--back2);
+}
+
+.progressInputDiv{
+    text-align: center;
+    margin: 15px;
+}
+.progressInputDiv > input{
+    width: 68%;
+    font-size: 18px;    
+    margin-right: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.progressInputDiv > input::placeholder{
+    text-align: center;
+}
+.progressInputDiv > button{
+    width: 24%;
+    font-size: 18px;
+    margin-left: 5px;
+    padding: 5px;
+}
