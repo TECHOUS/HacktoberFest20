@@ -3,6 +3,7 @@ import '../styles/Progress.css';
 import NoData from '../common/NoData';
 import ProgressData from '../common/ProgressData';
 import Disclaimer from '../common/Disclaimer';
+import Loading from '../common/Loading';
 
 const Progress = () => {
     const [username, setUsername] = useState('');
@@ -40,15 +41,18 @@ const Progress = () => {
     }
 
     return (
-        <div className="sectionPage" id="checkProgress">
-            <h1>Check your Progress for HacktoberFEST 20</h1>
-            <div className="progressInputDiv">
-                <input type="text" value={username} onChange={changeHandler} placeholder="Github Username"/>
-                <button onClick={clickAPIHandler}>Check</button>
+        <React.Fragment>
+            {isLoading && <Loading />}
+            <div className="sectionPage" id="checkProgress">
+                <h1>Check your Progress for HacktoberFEST 20</h1>
+                <div className="progressInputDiv">
+                    <input type="text" value={username} onChange={changeHandler} placeholder="Github Username"/>
+                    <button onClick={clickAPIHandler}>Check</button>
+                </div>
+                {handleUserData()}
+                <Disclaimer topValue={apiData.status===200 ? '10vh' : '46vh' }/>
             </div>
-            {handleUserData()}
-            <Disclaimer topValue={apiData.status===200 ? '10vh' : '46vh' }/>
-        </div>
+        </React.Fragment>
     );
 };
 

@@ -41,7 +41,11 @@ router.get('/search/mock', (req,res)=>{
     const { username } = req.query;
 
     if (!username || username === '') {
-        res.status(400).send({ status: 400, message: 'Invalid User Name' });
+
+        setTimeout(()=>{
+            res.status(400).send({ status: 400, message: 'Invalid User Name' })
+        }, 4000);
+        // res.status(400).send({ status: 400, message: 'Invalid User Name' });
     } else {
         res.json({
             "total_count": 3,

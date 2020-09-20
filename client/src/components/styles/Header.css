@@ -8,6 +8,7 @@
     padding: 5px;
     margin-right: 10px;
     margin-bottom: 10px;
+    z-index: 2;
 }
 #mobileNavCross{
     background-color: var(--back1);
@@ -20,6 +21,7 @@
     margin-bottom: 10px;
     border-radius: 45px;
     text-align: center;
+    z-index: 2;
 }
 
 .fa-times{
@@ -50,6 +52,7 @@
     border-radius: 45px;
     text-align: center;
     margin: 10px;
+    z-index: 2;
 }
 
 .mobileOptions:nth-child(3){
@@ -70,6 +73,7 @@
     width: 100%;
     box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
     z-index: 2;
+    background-color: white;
 }
 #desktopNav > h1{
     font-size: 3em;
