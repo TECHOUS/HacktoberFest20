@@ -14,15 +14,62 @@
     width: 68%;
     font-size: 18px;    
     margin-right: 5px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
+    background-color: var(--back3);
+    border: none;
+    color: black;
+    border-radius: 5px;
 }
 .progressInputDiv > input::placeholder{
     text-align: center;
+    color: black;
 }
 .progressInputDiv > button{
     width: 24%;
     font-size: 18px;
     margin-left: 5px;
-    padding: 5px;
+    padding: 10px;
+    background-color: var(--back8);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 605px){
+    #checkProgress > h1{
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+    .progressInputDiv{
+        margin: 30px;
+    }
+}
+
+@media screen and (min-width: 791px){
+    #checkProgress > h1{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .progressInputDiv{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media screen and (min-width: 965px){
+    #checkProgress{
+        padding-top: 150px;
+    }
+    .progressInputDiv{
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .progressInputDiv{
+        margin-left: 24%;
+        margin-right: 24%;
+    }
 }

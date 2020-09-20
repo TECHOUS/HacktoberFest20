@@ -1,24 +1,26 @@
 import React from 'react';
+import '../styles/NoData.css';
 
-const NoData = ({ apiData }) => {
-
-    if(Object.keys(apiData).length > 0){
+const NoData = ({ apiData, message }) => {
+    // when no data left come from the API
+    if (Object.keys(apiData).length > 0) {
         return (
-            <div style={{ textAlign: 'center' }}>
-                <i className="fas fa-exclamation-circle fa-4x"></i>
-                {console.log(apiData)}
-                <p style={{ fontSize: '18px' }}>{apiData.message}</p>
+            <div className="noDataView">
+                <i className="fas fa-exclamation-circle fa-5x"></i>
+                <h3>{apiData.message!=null ? apiData.message : message}</h3>
             </div>
         );
-    }else{
+    } else {
         // default view for the app
         return (
-            <div style={{textAlign:'center'}}>
-                <i className="fab fa-searchengin fa-4x"></i>
+            <div className="noDataView">
+                <i className="fab fa-searchengin fa-6x"></i>
                 <h2>Let us Hack the October</h2>
-                <p style={{fontSize: '18px'}}>Check the progress above and see where you are</p>
+                <p>
+                    Check the progress above and see where you are
+                </p>
             </div>
-        )
+        );
     }
 };
 

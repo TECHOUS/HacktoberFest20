@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../styles/Progress.css';
 import NoData from '../common/NoData';
 import ProgressData from '../common/ProgressData';
+import Disclaimer from '../common/Disclaimer';
 
 const Progress = () => {
     const [username, setUsername] = useState('');
@@ -46,6 +47,7 @@ const Progress = () => {
                 <button onClick={clickAPIHandler}>Check</button>
             </div>
             {handleUserData()}
+            <Disclaimer topValue={apiData.status===200 ? '10vh' : '46vh' }/>
         </div>
     );
 };

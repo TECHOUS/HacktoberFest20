@@ -27,10 +27,12 @@
 }
 #hacktoberFestLeft{
     left: 0;
+    cursor: pointer;
 }
 #hacktoberFestRight{
     float: right;
     margin-right: 200px;
+    cursor: pointer;
 }   
 
 #checker{

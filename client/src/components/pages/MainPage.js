@@ -19,7 +19,6 @@ const MainPage = () => {
                     progress <a href="#checkProgress">here</a>.
                 </p>
             </div>
-            <Disclaimer />
             <div id="hacktoberFestLeft">
                 <img
                     src="fest2018.jpg"
@@ -34,6 +33,7 @@ const MainPage = () => {
                     className="sideImages"
                 />
             </div>
+            <Disclaimer topValue='25vh'/>
         </div>
     );
 };

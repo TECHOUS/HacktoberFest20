@@ -17,7 +17,7 @@ router.get('/search', (req, res) => {
 
     // `https://api.github.com/search/issues?q=+is:pr+user:${username}+is:public+author:${username}+created:2020-10-01T00:01:00Z..2020-10-30T23:59:00Z&sort=created&order=desc`
     if (!username || username === '') {
-        res.status(400).send({ status: 400, message: 'Invalid username' });
+        res.status(400).send({ status: 400, message: 'Invalid User Name' });
     } else {
         axios
             .get(
