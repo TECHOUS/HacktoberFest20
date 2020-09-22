@@ -15,7 +15,7 @@ const axios = require('axios');
 router.get('/search', (req, res) => {
     const { username } = req.query;
 
-    // `https://api.github.com/search/issues?q=+is:pr+user:${username}+is:public+author:${username}+created:2020-10-01T00:01:00Z..2020-10-30T23:59:00Z&sort=created&order=desc`
+    // `https://api.github.com/search/issues?q=+is:pr+user:${username}+is:public+author:${username}+created:2020-10-01T00:01:00Z..2020-10-31T23:59:00Z&sort=created&order=desc`
     if (!username || username === '') {
         res.status(400).send({ status: 400, message: 'Invalid User Name' });
     } else {
