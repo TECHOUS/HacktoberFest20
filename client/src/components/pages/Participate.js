@@ -73,7 +73,8 @@ const Participate = () => {
                             'Git Cheatsheets',
                             'An Introduction to Open Source',
                             'How to write the perfect pull request',
-                            'How to write a good commit message'
+                            'How to write a good commit message',
+                            'JavaScript Resources',
                         ]}
                         links={[
                             'https://guides.github.com/introduction/flow/',
@@ -81,7 +82,8 @@ const Participate = () => {
                             'https://training.github.com/',
                             'https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source',
                             'https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/',
-                            'https://dev.to/chrissiemhrk/git-commit-message-5e21'
+                            'https://dev.to/chrissiemhrk/git-commit-message-5e21',
+                            'https://github.com/TechOUs/Treasure-js',
                         ]}
                     />
                 </ul>
@@ -89,6 +91,104 @@ const Participate = () => {
             <div className="dataDiv">
                 <h2>Hacktober Fest 2020 Contribution steps</h2>
                 <hr className="hrUnderline" />
+                <ol>
+                    <li className="listItem">
+                        For contributing firstly register on{' '}
+                        <a href="https://hacktoberfest.digitalocean.com/">
+                            hacktoberfest.digitalocean.com
+                        </a>{' '}
+                        with your GitHub username.
+                    </li>
+                    <li className="listItem">
+                        In this event you have to make 4 good Pull Requests on
+                        any Open Source Project (Repositories) on GitHub.
+                    </li>
+                    <li className="listItem">
+                        See the above <a href="#participate">resources</a> for
+                        more information. See the below GITHUB Repositories for
+                        contributing in HacktoberFest 2020.
+                    </li>
+                    <li className="listItem">
+                        Secondly finalise your skill set and the programming
+                        languages you are comfortable with.
+                    </li>
+                    <li className="listItem">
+                        After finalise find and choose the project you like to
+                        contribute this is the main step.
+                    </li>
+                    <li className="listItem">
+                        <b>Fork the project</b> after choosing. Then find the{' '}
+                        <b>CONTRIBUTION</b> details for the project. Most of the
+                        times <b>CONTRIBUTING.md file</b> is there in every Open
+                        Source Project search that.
+                    </li>
+                    <li className="listItem">
+                        After you got the Contribution Details read it and
+                        understand. For every project there are different
+                        guidelines which you have to follow to contribute in
+                        that project.
+                    </li>
+                    <li className="listItem">
+                        You can also search for HacktoberFest20 or related tags
+                        issues which you can solve.
+                    </li>
+                    <li className="listItem">
+                        After adding the changes make the Pull Request. Hurrah!
+                        you have raised your first Pull Request.
+                    </li>
+                    <li className="listItem">
+                        You can the see your progress on{' '}
+                        <a href="">HacktoberFest20 Checker</a> or on{' '}
+                        <a href="https://hacktoberfest.digitalocean.com/">
+                            Official Website.
+                        </a>
+                    </li>
+                </ol>
+            </div>
+            <div className="dataDiv">
+                <h3>
+                    <a href="https://github.com/TechOUs/HacktoberFest20Community">
+                        Hacktober Fest 20 Community
+                    </a>
+                </h3>
+                <hr className="hrUnderline" />
+                <p>
+                    Contribute to this beginner level project and get Pull
+                    Requests merged easily.
+                </p>
+            </div>
+            <div className="dataDiv">
+                <h3>Repositories you can Contribute</h3>
+                <hr className="hrUnderline" />
+                <ul>
+                    <AnchorList
+                        list={[
+                            'Algorithms',
+                            'Data-Structures',
+                            'Treasure JS',
+                            'Treasure JS APIs',
+                            'Treasure JS CLI',
+                            'RAINBOW',
+                            'MERN BOILERPLATE',
+                            'React-Calci',
+                            'React-Todo-App',
+                            'AutoJava',
+                        ]}
+                        links={[
+                            'https://github.com/TechOUs/Algorithms',
+                            'https://github.com/TechOUs/Data-Structures',
+                            'https://github.com/TechOUs/treasurejs.github.io',
+                            'https://github.com/TechOUs/TreasureApis',
+                            'https://github.com/TechOUs/Treasurejs-cli',
+                            'https://github.com/TechOUs/rainbow',
+                            'https://github.com/GauravWalia19/MernBoilerPlate',
+                            'https://github.com/GauravWalia19/React-Calci',
+                            'https://github.com/GauravWalia19/React-Todo-App',
+                            'https://github.com/GauravWalia19/AutoJava',
+                        ]}
+                    />
+                    <p>And many more...</p>
+                </ul>
             </div>
             <Disclaimer />
         </div>
