@@ -1,6 +1,7 @@
 .progressProfile{
     margin: 15px;
     text-align: center;
+    padding: 10px;
 }
 .inlineProfile{
     display: inline-block;
@@ -102,19 +103,19 @@
 
 @media screen and (min-width: 1200px){
     #repoListDiv{
-        margin-left: 24%;
-        margin-right: 24%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
     .progressProfile{
         margin-left: 24%;
         margin-right: 24%;
     }
     .repoDiv:hover,
-    .inlineProfile:nth-child(1):hover{
+    .inlineProfile:nth-child(1) > img:hover{
         box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
     }
 
-    .inlineProfile:nth-child(1):hover{
+    .inlineProfile:nth-child(1) > img:hover{
         transform: scale(1.05);
     }
 

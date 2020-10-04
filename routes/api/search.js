@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
+require('dotenv').config()
 
 /**
  * EndPoint: /api/v1/search?username=<username>
@@ -15,13 +16,19 @@ const axios = require('axios');
 router.get('/search', (req, res) => {
     const { username } = req.query;
 
-    // `https://api.github.com/search/issues?q=+is:pr+user:${username}+is:public+author:${username}+created:2020-10-01T00:01:00Z..2020-10-31T23:59:00Z&sort=created&order=desc`
     if (!username || username === '') {
         res.status(400).send({ status: 400, message: 'Invalid User Name' });
     } else {
+        let url = process.env.url.replace('${username}', username);
+        
         axios
             .get(
-                `https://api.github.com/search/issues?q=+is:pr+user:${username}+is:public+author:${username}+created:2019-09-01T00:01:00Z..2019-09-30T23:59:00Z&sort=created&order=desc`
+                url
+                ,{
+                    headers: {
+                        'Authorization': `token ${process.env.token}`
+                    }
+                }
             )
             .then((response) => {
                 if(response.status === 200){
@@ -45,7 +52,6 @@ router.get('/search/mock', (req,res)=>{
         setTimeout(()=>{
             res.status(400).send({ status: 400, message: 'Invalid User Name' })
         }, 4000);
-        // res.status(400).send({ status: 400, message: 'Invalid User Name' });
     } else {
         res.json({
             "total_count": 3,

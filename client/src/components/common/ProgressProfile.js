@@ -39,6 +39,7 @@ const ProgressProfile = (props) => {
                     }
                     alt="profile"
                 />
+                <p>{props.apiData.items[0].user.login}</p>
             </div>
             <div className="inlineProfile">
                 <p>
