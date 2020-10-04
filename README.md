@@ -1,5 +1,7 @@
-# Hacktober Fest 20
+# Hacktober Fest 20 Checker
 
-Website for the user to search whether they have qualified for the hacktober fest 20 or not
+<img src="./client/public/mainLogo.svg"/>
 
-Work In Progress
+Website for the users to search whether they have qualified for the hacktober fest 20 or not
+
+## LICENSE
