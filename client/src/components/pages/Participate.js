@@ -146,6 +146,34 @@ const Participate = () => {
                 </ol>
             </div>
             <div className="dataDiv">
+                <h3>Hacktober Fest 2020 Updates</h3>
+                <hr className="hrUnderline" />
+                <p>
+                    PRs count if:
+                    <br />
+                    &nbsp;&nbsp;<i className="far fa-hand-point-right"></i>{' '}
+                    Submitted during the month of October AND
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i className="fas fa-grip-lines"></i> Submitted in a public
+                    repo AND (<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i className="fas fa-hand-point-right"></i> The PR is
+                    labelled as hacktoberfest-accepted by a maintainer OR
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i className="fas fa-hand-point-right"></i> Submitted in a
+                    repo with the hacktoberfest topic AND (<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i className="fas fa-greater-than"></i> The PR is merged OR
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i className="fas fa-greater-than"></i> The PR has been
+                    approved
+                </p>
+                <p><a href="https://hacktoberfest.digitalocean.com/hacktoberfest-update">Source</a></p>
+            </div>
+            <div className="dataDiv">
                 <h3>
                     <a href="https://github.com/TechOUs/HacktoberFest20Community">
                         Hacktober Fest 20 Community
