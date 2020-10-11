@@ -22,9 +22,21 @@ const Footer = () => {
                     title="Contribution"
                     link="https://github.com/TechOUs/HacktoberFest20/tree/master/CONTRIBUTING.md"
                 />
-                <FooterLink class="far fa-file-code" title="Code of Conduct" />
-                <FooterLink class="far fa-comments" title="Our Community" />
-                <FooterLink class="far fa-file-alt" title="LICENSE" />
+                <FooterLink
+                    class="far fa-file-code"
+                    title="Code of Conduct"
+                    link="https://github.com/TechOUs/HacktoberFest20/blob/master/.github/CODE_OF_CONDUCT.md"
+                />
+                <FooterLink
+                    class="far fa-comments"
+                    title="Our Community"
+                    link="https://github.com/TechOUs"
+                />
+                <FooterLink
+                    class="far fa-file-alt"
+                    title="LICENSE"
+                    link="https://github.com/TechOUs/HacktoberFest20/blob/master/LICENSE"
+                />
             </div>
             <div id="bottomFooter">
                 <img src="Sponsors.svg" alt="sponsors" />

@@ -92,6 +92,11 @@ const Header = () => {
                     Participate
                 </div>
             </div>
+            <div id="forkOnGithub">
+                <a href="https://github.com/TechOUs/HacktoberFest20">
+                    <i className="fab fa-github"></i>
+                </a>
+            </div>
         </React.Fragment>
     );
 };
