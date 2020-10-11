@@ -36,6 +36,13 @@
     cursor: pointer;
 }
 
+/* for mi phone browsers */
+@media screen and (max-width: 404px){
+    .progressInputDiv > input{
+        width: 65%;
+    }
+}
+
 @media screen and (min-width: 605px){
     #checkProgress > h1{
         margin-left: 9%;
