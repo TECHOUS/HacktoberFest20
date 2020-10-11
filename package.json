@@ -1,11 +1,11 @@
 {
-  "name": "mernboilerplate",
+  "name": "hacktoberfestchecker",
   "version": "1.0.0",
   "engines": {
     "node": "10.x",
     "yarn": "1.x"
   },
-  "description": "This is a boilerplate repo for creating new mern stack apps",
+  "description": "This is the project for the programmers to check whether they are qualified for hacktoberfest or not",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

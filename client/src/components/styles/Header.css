@@ -99,9 +99,32 @@
     color: var(--back4);
 }
 
+/* FORK ON GITHUB */
+#forkOnGithub{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+#forkOnGithub > a{
+    text-decoration: none;
+    color: var(--back1);
+    font-size: 35px;
+}
+
 @media screen and (min-width: 965px){
     #mobileNav{
         display: none;
+    }
+    #forkOnGithub{
+        bottom: 0;
+        top: initial;
+        margin-bottom: 4px;
+    }
+    #forkOnGithub > a{
+        font-size: 50px;
     }
 }
 
@@ -119,5 +142,14 @@
     }
     .rightHeader:nth-child(3){
         padding-right: 10%;
+    }
+    #forkOnGithub{
+        bottom: initial;
+        top: initial;
+        margin: 0px;
+        margin-right: 4px;
+    }
+    #forkOnGithub > a{
+        font-size: 35px;
     }
 }

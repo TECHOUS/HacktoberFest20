@@ -3,6 +3,20 @@
 
 Website for the users to search whether they have qualified for the hacktober fest 20 or not
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/TechOUs/HacktoberFest20)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TechOUs/HacktoberFest20)
+![Lines of code](https://img.shields.io/tokei/lines/github/TechOUs/HacktoberFest20)
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fhacktoberfest20.tech)
+
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/TechOUs/HacktoberFest20)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/TechOUs/HacktoberFest20)
+![GitHub issues](https://img.shields.io/github/issues-raw/TechOUs/HacktoberFest20)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/TechOUs/HacktoberFest20)
+
+![GitHub forks](https://img.shields.io/github/forks/TechOUs/HacktoberFest20?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/TechOUs/HacktoberFest20?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/TechOUs/HacktoberFest20?style=social)
+
 ## Code Of Conduct
 
 We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_CONDUCT.md).
@@ -25,6 +39,6 @@ Please read our [contributing guidelines here](.github/CONTRIBUTING.md)
 
 ## LICENSE
 
-[MIT LICENSE](LICENSE)
+![GitHub](https://img.shields.io/github/license/TechOUs/HacktoberFest20)
 
 :copyright: TECHOUS 2020
