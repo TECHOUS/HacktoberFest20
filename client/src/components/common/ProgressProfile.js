@@ -28,27 +28,29 @@ const ProgressProfile = (props) => {
         }
     }, [props.apiData.total_count]);
 
-    return (
-        <div className="progressProfile">
-            <div className="inlineProfile">
-                <img
-                    src={
-                        props.apiData.total_count > 0
-                            ? props.apiData.items[0].user.avatar_url
-                            : ''
-                    }
-                    alt="profile"
-                />
-                <p>{props.apiData.items[0].user.login}</p>
+    if(props.apiData.total_count > 0){
+        return (
+            <div className="progressProfile">
+                <div className="inlineProfile">
+                    <img
+                        src={
+                            props.apiData.items[0].user.avatar_url
+                        }
+                        alt="profile"
+                    />
+                    <p>{props.apiData.items[0].user.login}</p>
+                </div>
+                <div className="inlineProfile">
+                    <p>
+                        <span>{props.apiData.total_count}</span> / 4
+                    </p>
+                    <p>{statement}</p>
+                </div>
             </div>
-            <div className="inlineProfile">
-                <p>
-                    <span>{props.apiData.total_count}</span> / 4
-                </p>
-                <p>{statement}</p>
-            </div>
-        </div>
-    );
+        );
+    }else{
+        return (<div></div>);
+    }
 };
 
 export default ProgressProfile;

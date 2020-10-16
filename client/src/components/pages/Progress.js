@@ -14,6 +14,16 @@ const Progress = () => {
         setUsername(event.target.value);
     };
 
+    const findExactCount = () => {
+        let items = apiData.items;
+        let valid_count = 0;
+        console.log(items.length);
+        for(let i=0;i<items.length;i++){
+            let labels = items[i].labels;
+            
+        }
+    }
+
     const clickAPIHandler = () => {
         setIsLoading(true);
         setApiData({});
@@ -23,6 +33,7 @@ const Progress = () => {
         .then(res => {
             setApiData(res);
             setUsername('');
+            // findExactCount();
             setIsLoading(false);
         })
         .catch(err => {
