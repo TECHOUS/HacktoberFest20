@@ -4,7 +4,7 @@ const ProgressProfile = (props) => {
     const [statement, setStatement] = useState('No Data Found !');
 
     useEffect(() => {
-        switch (props.apiData.total_count) {
+        switch (props.apiData.valid_count) {
             case 0:
                 setStatement('Too far Away !');
                 break;
@@ -21,12 +21,12 @@ const ProgressProfile = (props) => {
                 setStatement('Goal Achieved !');
                 break;
             default:
-                if (props.apiData.total_count > 4) {
+                if (props.apiData.valid_count > 4) {
                     setStatement('Now You are Showing Off !');
                 }
                 break;
         }
-    }, [props.apiData.total_count]);
+    }, [props.apiData.valid_count]);
 
     if(props.apiData.total_count > 0){
         return (
@@ -42,7 +42,7 @@ const ProgressProfile = (props) => {
                 </div>
                 <div className="inlineProfile">
                     <p>
-                        <span>{props.apiData.total_count}</span> / 4
+                        <span>{props.apiData.valid_count}</span> / 4
                     </p>
                     <p>{statement}</p>
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import NoData from './NoData';
 import PrIcon from './PrIcon';
+import PrStatusIcon from '../common/PrStatusIcon';
 
 const RepoList = ({ apiData }) => {
     const getRepoDate = (date) => {
@@ -20,10 +21,13 @@ const RepoList = ({ apiData }) => {
                         ''
                     )}
                 </h4>
-                <p>{repo.title}</p>
                 <p>
-                    <i className="far fa-clock"></i>
-                    {' '}
+                    <PrStatusIcon prStatus={repo.prStatus} />
+                    {'  '}
+                    {repo.title}
+                </p>
+                <p>
+                    <i className="far fa-clock"></i>{' '}
                     {getRepoDate(repo.created_at)}
                 </p>
             </div>
