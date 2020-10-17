@@ -15,3 +15,12 @@ updates:
     target-branch: "dev"
     versioning-strategy: increase-if-necessary
     
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/client" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "12:00"
+      timezone: "Asia/Kolkata"
+    target-branch: "dev"
+    versioning-strategy: increase-if-necessary
