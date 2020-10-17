@@ -6,7 +6,6 @@ Website for the users to search whether they have qualified for the hacktober fe
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/TechOUs/HacktoberFest20)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TechOUs/HacktoberFest20)
 ![Lines of code](https://img.shields.io/tokei/lines/github/TechOUs/HacktoberFest20)
-![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fhacktoberfest20.tech)
 
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/TechOUs/HacktoberFest20)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/TechOUs/HacktoberFest20)
@@ -16,6 +15,14 @@ Website for the users to search whether they have qualified for the hacktober fe
 ![GitHub forks](https://img.shields.io/github/forks/TechOUs/HacktoberFest20?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/TechOUs/HacktoberFest20?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/TechOUs/HacktoberFest20?style=social)
+
+Check this out at
+
+[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=www.hacktoberfest20.tech&url=http%3A%2F%2Fwww.hacktoberfest20.tech)](http://www.hacktoberfest20.tech)
+
+or
+
+[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=https://hacktoberfest20.herokuapp.com&url=https%3A%2F%2Fhacktoberfest20.herokuapp.com)](https://hacktoberfest20.herokuapp.com)
 
 ## Code Of Conduct
 
