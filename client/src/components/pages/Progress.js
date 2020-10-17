@@ -33,10 +33,10 @@ const Progress = () => {
     }
     
     const handleUserData = () => {
-        if(apiData.status===200){
+        if(apiData.status===200 && apiData.total_count>0){
             return (<ProgressData apiData={apiData}/>);
         }else{
-            return (<NoData apiData={apiData}/>);
+            return (<NoData apiData={apiData} message="No Data Found !"/>);
         }
     }
 

@@ -52,7 +52,7 @@ router.get('/search', (req, res) => {
                 }
             })
             .catch((err) => {
-                res.status(404).json({ status: 404, message: 'No Data Found'});
+                res.status(404).json({ status: 404, message: 'No Data Found !'});
             });
     }
 });
