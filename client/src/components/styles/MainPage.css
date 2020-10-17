@@ -44,6 +44,13 @@
     margin-top: 40%;
 }
 
+/* for mi phone browsers */
+@media screen and (max-width: 360px) and (max-height: 562px){
+    #mainPage{
+        padding-top: 15%;
+    }
+}
+
 @media screen and (max-width: 964px){
     #hacktoberFestLeft,
     #hacktoberFestRight{
