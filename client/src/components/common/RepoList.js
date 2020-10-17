@@ -1,5 +1,4 @@
 import React from 'react';
-import NoData from './NoData';
 import PrIcon from './PrIcon';
 import PrStatusIcon from '../common/PrStatusIcon';
 
