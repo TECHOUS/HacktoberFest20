@@ -3,7 +3,8 @@
 
 Website for the users to search whether they have qualified for the hacktober fest 20 or not
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/TechOUs/HacktoberFest20)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/TechOUs/HacktoberFest20)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/TechOUs/HacktoberFest20)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TechOUs/HacktoberFest20)
 ![Lines of code](https://img.shields.io/tokei/lines/github/TechOUs/HacktoberFest20)
 

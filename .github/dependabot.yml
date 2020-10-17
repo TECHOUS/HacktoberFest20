@@ -13,4 +13,5 @@ updates:
       time: "12:00"
       timezone: "Asia/Kolkata"
     target-branch: "dev"
+    versioning-strategy: increase-if-necessary
     
