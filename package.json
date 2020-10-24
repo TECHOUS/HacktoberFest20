@@ -18,10 +18,10 @@
   "author": "Gaurav Walia",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.9"
+    "mongoose": "^5.10.10"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
