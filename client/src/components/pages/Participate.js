@@ -138,7 +138,7 @@ const Participate = () => {
                     </li>
                     <li className="listItem">
                         You can the see your progress on{' '}
-                        <a href="">HacktoberFest20 Checker</a> or on{' '}
+                        <a href="https://github.com/TechOUs/HacktoberFest20">HacktoberFest20 Checker</a> or on{' '}
                         <a href="https://hacktoberfest.digitalocean.com/">
                             Official Website.
                         </a>
